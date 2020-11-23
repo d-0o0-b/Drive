@@ -1,0 +1,208 @@
+.mistake {
+  padding-bottom: 100px;
+}
+
+.mistake .van-nav-bar {
+  background: linear-gradient(top, #e97373, #f05345);
+}
+
+.mistake .van-nav-bar__text, .mistake .van-nav-bar__arrow, .mistake .van-nav-bar__title {
+  color: #fff;
+}
+
+.mistake .test {
+  padding: 10px 20px;
+}
+
+.mistake .question {
+  font-size: 16px;
+  line-height: 25px;
+  letter-spacing: 2px;
+  position: relative;
+}
+
+.mistake .question-icon {
+  padding: 2px;
+  background-color: #F05E5F;
+  color: #fff;
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+.mistake .question-text {
+  display: inline;
+}
+
+.mistake .question-img {
+  margin-top: 8px;
+  width: 100%;
+  height: 150px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  overflow: hidden;
+}
+
+.mistake .question-img img {
+  max-width: 100%;
+  max-height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.mistake .item {
+  margin-top: 20px;
+}
+
+.mistake .item-box {
+  padding: 10px;
+  font-size: 16px;
+  position: relative;
+}
+
+.mistake .item-box.active {
+  background-color: #e4e3e3;
+}
+
+.mistake .item-box.right {
+  color: #1dbb1d;
+}
+
+.mistake .item-box.right .item-icon {
+  border: solid 2px transparent;
+  margin-right: 20px;
+  color: transparent;
+  background-image: url("../img/right.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.mistake .item-box.wrong {
+  color: #e45327;
+}
+
+.mistake .item-box.wrong .item-icon {
+  border: solid 2px transparent;
+  margin-right: 20px;
+  color: transparent;
+  background-image: url("../img/wrong.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.mistake .item-icon {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: solid 2px #afaeae;
+  text-align: center;
+  line-height: 35px;
+  margin-right: 20px;
+}
+
+.mistake .item-text {
+  width: calc(100% - 60px);
+  line-height: 40px;
+}
+
+.mistake .bottom {
+  width: 100%;
+  height: 30px;
+  position: fixed;
+  bottom: 5px;
+  border-top: solid 2px #ddd;
+  padding-top: 4px;
+  background-color: #fff;
+}
+
+.mistake .next, .mistake .last {
+  position: absolute;
+  right: 20px;
+  padding: 4px 10px;
+  background-color: #F05E5F;
+  color: #fff;
+  border-radius: 15px;
+  font-size: 15px;
+}
+
+.mistake .last {
+  margin-right: 90px;
+}
+
+.mistake .like {
+  margin-left: 2%;
+}
+
+.mistake .statistics {
+  margin-left: 4%;
+}
+
+.mistake .like-icon, .mistake .statistics-icon {
+  width: 30px;
+  height: 30px;
+  margin-top: 2.5px;
+  display: inline-block;
+  position: relative;
+}
+
+.mistake .like-icon img, .mistake .statistics-icon img {
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.mistake .like-text, .mistake .statistics-text {
+  line-height: 25px;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  font-size: 14px;
+}
+
+.mistake .explain {
+  margin-top: 10px;
+  padding: 10px 20px;
+}
+
+.mistake .explain-title {
+  padding-bottom: 10px;
+  border-bottom: solid 2px #c5c5c5;
+}
+
+.mistake .explain-title-text {
+  font-size: 16px;
+  font-weight: bold;
+  display: inline-block;
+  position: relative;
+  left: 10px;
+}
+
+.mistake .explain-title-text:after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  width: 5px;
+  height: 100%;
+  background-color: #e44848;
+  left: -10px;
+}
+
+.mistake .explain-text {
+  font-size: 16px;
+  line-height: 25px;
+  letter-spacing: 2px;
+  padding-top: 10px;
+}
+
+.mistake .empty .van-button {
+  background: #F05E5F;
+  border: transparent;
+}

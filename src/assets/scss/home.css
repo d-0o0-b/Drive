@@ -1,0 +1,149 @@
+.home {
+  background: linear-gradient(top, #eeb1b1, #f11400);
+}
+
+.home .van-nav-bar {
+  background: linear-gradient(top, #e97373, #f05345);
+}
+
+.home .van-nav-bar__title {
+  color: white;
+}
+
+.home .banner-box {
+  background-color: #F05E5F;
+}
+
+.home .swipe-box {
+  height: 80px;
+  position: relative;
+}
+
+.home .swipe-box img {
+  max-width: 100%;
+  max-height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.home .sort {
+  padding: 20px 10px 20px;
+}
+
+.home .sort-box {
+  width: calc(50% - 40px);
+  padding: 10px;
+}
+
+.home .sort-circle {
+  width: 100px;
+  height: 100px;
+  border: solid 2px #fff;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.home .sort-circle-box {
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.home .sort-icon {
+  width: 40%;
+  margin: 0 auto;
+}
+
+.home .sort-icon img {
+  width: 100%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.home .sort-text {
+  font-size: 16px;
+  text-align: center;
+  color: #fff;
+  margin-top: 6px;
+}
+
+.home .subject {
+  width: 100%;
+  height: calc(100vh - 291px);
+  min-height: 250px;
+  overflow-x: hidden;
+  position: relative;
+}
+
+.home .subject-box {
+  width: 140%;
+  height: 100%;
+  background-color: #fff;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.home .subject-boxing {
+  width: 220px;
+  margin: auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.home .subject-content {
+  width: 100%;
+  border-bottom: 2px solid #b1acac;
+  margin-bottom: 15px;
+}
+
+.home .subject-content:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+
+.home .subject-content-boxing {
+  width: 80%;
+  height: 45px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  padding-bottom: 15px;
+}
+
+.home .subject-title {
+  font-size: 18px;
+  line-height: 45px;
+  color: #909090;
+  position: absolute;
+  right: 8%;
+  display: inline-block;
+}
+
+.home .subject-icon {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  border-radius: 50%;
+  border: 2px solid #909090;
+  position: relative;
+  left: 8%;
+}
+
+.home .subject-icon img {
+  width: 70%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
